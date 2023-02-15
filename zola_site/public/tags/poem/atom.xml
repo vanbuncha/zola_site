@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Papaya - poem</title>
+	<subtitle>A clean Zola theme for blogging and projects</subtitle>
+	<link href="https://vanguyen.info/tags/poem/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://vanguyen.info"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-10-02T00:00:00+00:00</updated>
+	<id>https://vanguyen.info/tags/poem/atom.xml</id>
+	<entry xml:lang="en">
+		<title>再别康桥</title>
+		<published>2021-10-02T00:00:00+00:00</published>
+		<updated>2021-10-02T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://vanguyen.info/blog/zai-bie-kang-qiao-zh/" type="text/html"/>
+		<id>https://vanguyen.info/blog/zai-bie-kang-qiao-zh/</id>
+		<content type="html">&lt;p&gt;轻轻地我走了，正如我轻轻地来；我轻轻地招手，作别西天的云彩。&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;blockquote&gt;
+&lt;p&gt;轻轻地我走了，&lt;br&gt;
+正如我轻轻地来；&lt;br&gt;
+我轻轻地招手，&lt;br&gt;
+作别西天的云彩。&lt;br&gt;
+&lt;br&gt;
+那河畔的金柳，&lt;br&gt;
+是夕阳中的新娘；&lt;br&gt;
+波光里的艳影，&lt;br&gt;
+在我的心头荡漾。&lt;br&gt;
+&lt;br&gt;
+软泥上的青荇，&lt;br&gt;
+油油的在水底招摇；&lt;br&gt;
+在康河的柔波里，&lt;br&gt;
+我甘心做一条水草。&lt;br&gt;
+&lt;br&gt;
+那榆荫下的一潭，&lt;br&gt;
+不是清泉，是天上的虹，&lt;br&gt;
+揉碎在浮藻间，&lt;br&gt;
+沉淀着彩虹似的梦。&lt;br&gt;
+&lt;br&gt;
+寻梦？撑一支长篙，&lt;br&gt;
+向青草更青处漫溯，&lt;br&gt;
+满载一船星辉，&lt;br&gt;
+在星辉斑斓里放歌。&lt;br&gt;
+&lt;br&gt;
+但我不能放歌，&lt;br&gt;
+悄悄是别离的笙箫；&lt;br&gt;
+夏虫也为我沉默，&lt;br&gt;
+沉默是今晚的康桥！&lt;br&gt;
+&lt;br&gt;
+悄悄的我走了，&lt;br&gt;
+正如我悄悄的来，&lt;br&gt;
+我挥一挥衣袖，&lt;br&gt;
+不带走一片云彩。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+	</entry>
+</feed>

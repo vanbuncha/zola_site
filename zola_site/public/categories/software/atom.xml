@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Papaya - software</title>
+	<subtitle>A clean Zola theme for blogging and projects</subtitle>
+	<link href="https://vanguyen.info/categories/software/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://vanguyen.info"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-08-11T00:00:00+00:00</updated>
+	<id>https://vanguyen.info/categories/software/atom.xml</id>
+	<entry xml:lang="en">
+		<title>软件示例</title>
+		<published>2021-08-11T00:00:00+00:00</published>
+		<updated>2021-08-11T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://vanguyen.info/projects/index-zh/" type="text/html"/>
+		<id>https://vanguyen.info/projects/index-zh/</id>
+		<content type="html">&lt;p&gt;这是我写的第一个软件!&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;轻轻地我走了，正如我轻轻地来；我轻轻地招手，作别西天的云彩。&lt;&#x2F;p&gt;
+&lt;p&gt;那河畔的金柳，是夕阳中的新娘；波光里的艳影，在我的心头荡漾。&lt;&#x2F;p&gt;
+&lt;p&gt;软泥上的青荇，油油的在水底招摇；在康河的柔波里，我甘心做一条水草。&lt;&#x2F;p&gt;
+&lt;p&gt;那榆荫下的一潭，不是清泉，是天上的虹，揉碎在浮藻间，沉淀着彩虹似的梦。&lt;&#x2F;p&gt;
+&lt;p&gt;寻梦？撑一支长篙，向青草更青处漫溯，满载一船星辉，在星辉斑斓里放歌。&lt;&#x2F;p&gt;
+&lt;p&gt;但我不能放歌，悄悄是别离的笙箫；夏虫也为我沉默，沉默是今晚的康桥！&lt;&#x2F;p&gt;
+&lt;p&gt;悄悄的我走了，正如我悄悄的来，我挥一挥衣袖，不带走一片云彩。&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Example software project</title>
+		<published>2021-08-11T00:00:00+00:00</published>
+		<updated>2021-08-11T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://vanguyen.info/projects/project-1/" type="text/html"/>
+		<id>https://vanguyen.info/projects/project-1/</id>
+		<content type="html">&lt;p&gt;This is my first software project!&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est augue, pellentesque sit amet nisi ut, viverra vestibulum purus. Quisque ac varius elit. &lt;&#x2F;p&gt;
+&lt;p&gt;Praesent vitae pretium lacus, at placerat velit. Nulla feugiat quam eget quam tempus, id vulputate nulla suscipit. Vestibulum porta mollis molestie. In mollis diam et ante varius imperdiet et a elit. Mauris sodales quis nisi nec fringilla. &lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fafafa;color:#80cbc4;&quot;&gt;&lt;code&gt;&lt;span&gt;Aenean sed fermentum nunc, a consectetur magna.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Maecenas eget ligula porttitor, egestas orci id, gravida nisl. Aliquam erat volutpat. Sed dapibus felis quis lacus dignissim condimentum aliquam et orci. &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sed rutrum velit et purus volutpat rutrum. &lt;&#x2F;li&gt;
+&lt;li&gt;Suspendisse mollis ante arcu, sit amet vehicula nisl cursus ac. &lt;&#x2F;li&gt;
+&lt;li&gt;Donec tristique risus dolor, at tristique urna placerat et. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Nam vel interdum neque. Maecenas laoreet eget enim at rhoncus. Donec posuere diam leo, blandit semper urna semper nec. &lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
