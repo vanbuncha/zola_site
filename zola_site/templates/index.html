@@ -3,8 +3,9 @@
     <section>
         {% set banner = resize_image(path="/static/banner.jpg", width=1024, op="fit_width") %}
         <img src="{{ banner.url }}" class="index-banner" alt="A misty forest." />
+        <figcaption> <a href="https://www.google.com/maps/place/55%C2%B030'55.1%22N+9%C2%B056'52.0%22E/@55.5152935,9.947776,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x6ccc34e8c683648!8m2!3d55.5152935!4d9.947776">55.51529345661104, 9.947775998223287</a></figcaption>
         <p>
-            {{ config.description }}
+            {{ config.description}}
         </p>
     </section>
     <section class="index-columns">
