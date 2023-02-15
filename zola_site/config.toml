@@ -34,8 +34,8 @@ highlight_theme = "material-light"
 [languages]
 
 [languages.en]
-title = "Papaya"
-description = "A clean Zola theme for blogging and projects"
+title = "Home"
+description = "Personal blog - Van Nguyen"
 generate_feed = true
 feed_filename = "atom.xml"
 taxonomies = [
