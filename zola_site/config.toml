@@ -34,8 +34,8 @@ highlight_theme = "material-light"
 [languages]
 
 [languages.en]
-title = "Home"
-description = "Personal blog - Van Nguyen"
+title = "vanbuncha"
+description = "personal site"
 generate_feed = true
 feed_filename = "atom.xml"
 taxonomies = [
