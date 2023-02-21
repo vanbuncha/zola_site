@@ -8,9 +8,9 @@ template = "about.html"
 
 &nbsp;
 
-## Hello guys!
+## Hello folks!
 
-It's me Van Nguyen.
+It's me Van Nguyen aka vanbuncha.
 
 Eternal bachelor student <a href="https://www.instagram.com/fis_vse/?hl=en">@fis_vse</a>  and aspiring off-grid living fan.
 
