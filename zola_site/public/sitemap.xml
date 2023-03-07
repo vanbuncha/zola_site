@@ -20,7 +20,14 @@
         <loc>https://vanguyen.info/categories/</loc>
     </url>
     <url>
+        <loc>https://vanguyen.info/categories/software/</loc>
+    </url>
+    <url>
         <loc>https://vanguyen.info/projects/</loc>
+    </url>
+    <url>
+        <loc>https://vanguyen.info/projects/zola-project/</loc>
+        <lastmod>2021-08-11</lastmod>
     </url>
     <url>
         <loc>https://vanguyen.info/tags/</loc>
