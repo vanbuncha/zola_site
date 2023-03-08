@@ -57,7 +57,11 @@ bash
     sudo rm -rf html
     sudo mv public html
     sudo rm -rf zola_site
-The first command clones my GitHub repository onto my Raspberry Pi. The second command moves the public folder from the zola_site directory to the current directory. The third command removes any existing html directory to avoid conflicts. The fourth command renames the public directory to html, which is the default directory for Apache to serve web pages from. The fifth and final command removes the zola_site directory to keep things tidy.
+1. Clones my GitHub repository onto my Raspberry Pi. 
+2. Moves the public folder from the zola_site directory to the current directory. 
+3. Removes any existing html directory to avoid conflicts. 
+4. Renames the public directory to html, which is the default directory for Apache to serve web pages from. 
+5. Final command removes the zola_site directory to keep things tidy.
 
 And that's it! My website was now deployed and accessible from my Raspberry Pi. Using GitHub to manage my website files made it easy to keep everything up to date, and the simple command line commands made deploying my website a breeze.
 

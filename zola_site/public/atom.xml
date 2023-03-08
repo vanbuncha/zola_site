@@ -40,7 +40,13 @@
 &lt;&#x2F;span&gt;&lt;span&gt;sudo mv public html
 &lt;&#x2F;span&gt;&lt;span&gt;sudo rm -rf zola_site
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;The first command clones my GitHub repository onto my Raspberry Pi. The second command moves the public folder from the zola_site directory to the current directory. The third command removes any existing html directory to avoid conflicts. The fourth command renames the public directory to html, which is the default directory for Apache to serve web pages from. The fifth and final command removes the zola_site directory to keep things tidy.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clones my GitHub repository onto my Raspberry Pi. &lt;&#x2F;li&gt;
+&lt;li&gt;Moves the public folder from the zola_site directory to the current directory. &lt;&#x2F;li&gt;
+&lt;li&gt;Removes any existing html directory to avoid conflicts. &lt;&#x2F;li&gt;
+&lt;li&gt;Renames the public directory to html, which is the default directory for Apache to serve web pages from. &lt;&#x2F;li&gt;
+&lt;li&gt;Final command removes the zola_site directory to keep things tidy.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
 &lt;p&gt;And that&#x27;s it! My website was now deployed and accessible from my Raspberry Pi. Using GitHub to manage my website files made it easy to keep everything up to date, and the simple command line commands made deploying my website a breeze.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;remote-control-and-deployment&quot;&gt;Remote control and deployment&lt;&#x2F;h2&gt;
 &lt;p&gt;Accessing my Raspberry Pi on my local network was easy using SSH. I simply opened up the terminal on my computer and entered the command:&lt;&#x2F;p&gt;
