@@ -32,10 +32,12 @@ To install Nextcloud on a Raspberry Pi, I followed these steps:
 
 Preparing the Raspberry Pi: First, I prepared my Raspberry Pi by installing the latest version of Raspberry Pi OS and enabling SSH access.
 Installing Apache and PHP: I installed Apache web server and PHP on my Raspberry Pi using the following command in the terminal:
-sudo apt-get install apache2 php libapache2-mod-php
+
+    sudo apt-get install apache2 php libapache2-mod-php
 
 Creating a Virtual Host: Next, I created a virtual host for Nextcloud by creating a new configuration file in the Apache sites-available directory using the following command:
-sudo nano /etc/apache2/sites-available/nextcloud.conf
+
+    sudo nano /etc/apache2/sites-available/nextcloud.conf
 
 I added the following lines to the configuration file:
 
@@ -64,17 +66,17 @@ I saved the configuration file and enabled the site using the following command:
 sudo a2ensite nextcloud.conf
 
 Downloading and Installing Nextcloud: I downloaded the latest version of Nextcloud from their website and copied the files to the web root directory /var/www/nextcloud/ on my Raspberry Pi using the following commands:
-kotlin
-Copy code
+```
 wget https://download.nextcloud.com/server/releases/nextcloud-22.3.0.zip
 sudo unzip nextcloud-22.3.0.zip -d /var/www/
 sudo chown -R www-data:www-data /var/www/nextcloud/
+```
 Setting Up a Database: Next, I set up a MySQL database for Nextcloud using the following commands:
-csharp
-Copy code
+```
 sudo apt-get install mariadb-server php-mysql
 sudo mysql_secure_installation
 sudo mysql -u root -p
+```
 I created a new database and user for Nextcloud, and granted the user permissions to the database:
 ```
 CREATE DATABASE nextcloud;
