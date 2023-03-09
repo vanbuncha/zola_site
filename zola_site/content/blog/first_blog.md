@@ -8,27 +8,12 @@ tags = ["history"]
 
 # Origin?
 
-One might wonder, how did the nickname "Vanbuncha" come into existence?
+Have you ever wondered how the nickname "vanbuncha" came to be? Well, let me tell you the story.
 
-Picture this: a young me, an enthusiastic fan of a game called football. In 2012, a movie called "Okresní přebor" was still at the peak of its fame. Of course, being the only Asian on a football team full of cheerful kids and adults, a new nickname was given to me: "Fun Din Dung".
+Picture this: it was 2012, and I was a young and enthusiastic fan of football. I was the only Asian on a team full of cheerful kids and adults, and as a result, they gave me the nickname "Fun Din Dung". While it was popular amongst my peers, it wasn't an original nickname until one day, my coach exclaimed "Van bún cùng chả" (in a Czech accent), referring to a Vietnamese dish that was becoming popular in the Czech Republic. And just like that, a new nickname was born.
 
-As popular as it was amongst my peers, it was not an original nickname until one day, one of my coaches, perhaps out of pure joy, exclaimed, "Van bún cùng chả" (but in a Czech accent, of course). This dish was becoming a staple Vietnamese <a href="https://delightfulplate.com/vietnamese-grilled-pork-meatballs-noodles-bun-cha/">dish</a> in Czech Republic. Thus, a nickname was born. It was immortalized on September 6th, 2012, by creating the email vanbuncha.nguyen, an email that is still used to this day.
+On September 6th, 2012, I immortalized this new nickname by creating the email vanbuncha.nguyen, which I still use to this day.
 
+Over the years, other nicknames have come and gone, such as "Wafik" (which means successful in Arabic) and "vanba" (derived from Ho Chi Minh's alias during his stay on a French merchant steamer). But none of them have stuck like "vanbuncha".
 
-## Evolution
-
-Throughout the years, many nicknames came and went, such as "Wafik"*, which is used as an ign in League of Legends or "vanba" ("Văn Ba"), which has its historic origin from being an alias of Ho Chi Minh during his stay on a French merchant steamer**.
-
-
-## Present
-
-While many nicknames were used, no better one was invented than "Vanbuncha". Thus, it is still used despite its joke origin or possible derogatory connotation to one's ethnic origin.
-
-<i>It's all a joke and fun after all, haha!</i>
-
-
-
-Notes:
-
-*Wafik - Muslim Boy name meaning successful. <br>
-** Amiral de Latouche-Tréville
+Despite its joke origin and possible derogatory connotation to my ethnic origin, I still use the nickname to this day. After all, it's all in good fun!
