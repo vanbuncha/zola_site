@@ -86,7 +86,7 @@ exit;
 Completing the Installation: Finally, I accessed the Nextcloud installation wizard by visiting vanguyen.info/nextcloud in my web browser. I entered the database details and created an administrator account, and then completed the installation.
 That's it! Now, I can access my Nextcloud instance by visiting vanguyen.info/nextcloud on my Raspberry Pi.
 
-<a href="vanguyen.info/nextcloud">Link to Nextcloud</a>
+<a href="https://vanguyen.info/nextcloud/index.php/login">Link to Nextcloud</a> 
 
 # To-Do List
 

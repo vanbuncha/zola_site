@@ -72,7 +72,7 @@ I created a new database and user for Nextcloud, and granted the user permission
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Completing the Installation: Finally, I accessed the Nextcloud installation wizard by visiting vanguyen.info&#x2F;nextcloud in my web browser. I entered the database details and created an administrator account, and then completed the installation.
 That&#x27;s it! Now, I can access my Nextcloud instance by visiting vanguyen.info&#x2F;nextcloud on my Raspberry Pi.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;vanguyen.info&#x2F;nextcloud&quot;&gt;Link to Nextcloud&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vanguyen.info&#x2F;nextcloud&#x2F;index.php&#x2F;login&quot;&gt;Link to Nextcloud&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
 &lt;h1 id=&quot;to-do-list&quot;&gt;To-Do List&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
