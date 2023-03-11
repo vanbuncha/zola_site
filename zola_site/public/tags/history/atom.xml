@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>vanbuncha - history</title>
-	<subtitle>personal site</subtitle>
-	<link href="https://vanguyen.info/tags/history/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://vanguyen.info"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2023-02-20T00:00:00+00:00</updated>
-	<id>https://vanguyen.info/tags/history/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Why vanbuncha</title>
-		<published>2023-02-20T00:00:00+00:00</published>
-		<updated>2023-02-20T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://vanguyen.info/blog/first-blog/" type="text/html"/>
-		<id>https://vanguyen.info/blog/first-blog/</id>
-		<content type="html">&lt;h1 id=&quot;origin&quot;&gt;Origin?&lt;a class=&quot;zola-anchor&quot; href=&quot;#origin&quot; aria-label=&quot;Anchor link for: origin&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+    <title>vanbuncha - history</title>
+    <subtitle>Personal site for documenting projects and blogging stuff.</subtitle>
+    <link href="https://vanguyen.info/tags/history/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vanguyen.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-02-20T00:00:00+00:00</updated>
+    <id>https://vanguyen.info/tags/history/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Why vanbuncha</title>
+        <published>2023-02-20T00:00:00+00:00</published>
+        <updated>2023-02-20T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://vanguyen.info/blog/first-blog/" type="text/html"/>
+        <id>https://vanguyen.info/blog/first-blog/</id>
+        <content type="html">&lt;h1 id=&quot;origin&quot;&gt;Origin?&lt;a class=&quot;zola-anchor&quot; href=&quot;#origin&quot; aria-label=&quot;Anchor link for: origin&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Have you ever wondered how the nickname &amp;quot;vanbuncha&amp;quot; came to be? Well, let me tell you the story.&lt;&#x2F;p&gt;
 &lt;p&gt;Picture this: it was 2012, and I was a young and enthusiastic fan of football. I was the only Asian on a team full of cheerful kids and adults, and as a result, they gave me the nickname &amp;quot;Fun Din Dung&amp;quot;. While it was popular amongst my peers, it wasn&#x27;t an original nickname until one day, my coach exclaimed &amp;quot;Van bún cùng chả&amp;quot; (in a Czech accent), referring to a Vietnamese dish that was becoming popular in the Czech Republic. And just like that, a new nickname was born.&lt;&#x2F;p&gt;
 &lt;p&gt;On September 6th, 2012, I immortalized this new nickname by creating the email vanbuncha.nguyen, which I still use to this day.&lt;&#x2F;p&gt;
 &lt;p&gt;Over the years, other nicknames have come and gone, such as &amp;quot;Wafik&amp;quot; (which means successful in Arabic) and &amp;quot;vanba&amp;quot; (derived from Ho Chi Minh&#x27;s alias during his stay on a French merchant steamer). But none of them have stuck like &amp;quot;vanbuncha&amp;quot;.&lt;&#x2F;p&gt;
 &lt;p&gt;Despite its joke origin and possible derogatory connotation to my ethnic origin, I still use the nickname to this day. After all, it&#x27;s all in good fun!&lt;&#x2F;p&gt;
 </content>
-	</entry>
+    </entry>
 </feed>

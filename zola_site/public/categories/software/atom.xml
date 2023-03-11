@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>vanbuncha - software</title>
-	<subtitle>personal site</subtitle>
-	<link href="https://vanguyen.info/categories/software/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://vanguyen.info"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2023-03-09T00:00:00+00:00</updated>
-	<id>https://vanguyen.info/categories/software/atom.xml</id>
-	<entry xml:lang="en">
-		<title>File service - Nextcloud</title>
-		<published>2023-03-09T00:00:00+00:00</published>
-		<updated>2023-03-09T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://vanguyen.info/projects/nextcloud/" type="text/html"/>
-		<id>https://vanguyen.info/projects/nextcloud/</id>
-		<content type="html">&lt;p&gt;Self hosted file service&lt;&#x2F;p&gt;
+    <title>vanbuncha - software</title>
+    <subtitle>Personal site for documenting projects and blogging stuff.</subtitle>
+    <link href="https://vanguyen.info/categories/software/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vanguyen.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-03-09T00:00:00+00:00</updated>
+    <id>https://vanguyen.info/categories/software/atom.xml</id>
+    <entry xml:lang="en">
+        <title>File service - Nextcloud</title>
+        <published>2023-03-09T00:00:00+00:00</published>
+        <updated>2023-03-09T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://vanguyen.info/projects/nextcloud/" type="text/html"/>
+        <id>https://vanguyen.info/projects/nextcloud/</id>
+        <content type="html">&lt;p&gt;Self hosted file service&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;part-one-subdomain&quot;&gt;Part one -- subdomain&lt;&#x2F;h1&gt;
 &lt;p&gt;As a web developer, I am always looking for new ways to improve my setup and make my web development projects more accessible to others. Recently, I decided to try and add a subdomain to my Raspberry Pi Apache server using Cloudflare Tunnel, but unfortunately, I did not have success. Here is my experience.&lt;&#x2F;p&gt;
 &lt;p&gt;First, I set up my Raspberry Pi with Apache, following various tutorials on the web. I also configured my router to forward incoming requests to the Raspberry Pi’s IP address, so that the web server could be accessed from the internet. Next, I signed up for a Cloudflare account and set up a tunnel to my Raspberry Pi using the Cloudflare CLI. This was relatively easy, and I was able to connect to my web server using the tunnel URL provided by Cloudflare.&lt;&#x2F;p&gt;
@@ -81,14 +84,17 @@ Use external storage&lt;&#x2F;li&gt;
 set up SMTP service&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Public website</title>
-		<published>2023-02-28T00:00:00+00:00</published>
-		<updated>2023-02-28T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://vanguyen.info/projects/zola-project/" type="text/html"/>
-		<id>https://vanguyen.info/projects/zola-project/</id>
-		<content type="html">&lt;p&gt;Public website with self-hosting&lt;&#x2F;p&gt;
+    </entry>
+    <entry xml:lang="en">
+        <title>Public website</title>
+        <published>2023-02-28T00:00:00+00:00</published>
+        <updated>2023-02-28T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://vanguyen.info/projects/zola-project/" type="text/html"/>
+        <id>https://vanguyen.info/projects/zola-project/</id>
+        <content type="html">&lt;p&gt;Public website with self-hosting&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;deploying-my-website-onto-a-raspberry-pi-with-apache-server-using-cloudflare-and-ssg-zola&quot;&gt;Deploying My Website onto a Raspberry Pi with Apache Server using Cloudflare and SSG Zola&lt;&#x2F;h1&gt;
 &lt;p&gt;Hello, fellow tech enthusiasts! In this blog post, I&#x27;m excited to share my experience of deploying my website onto a Raspberry Pi with Apache server using Cloudflare and SSG Zola.&lt;&#x2F;p&gt;
 &lt;p&gt;Before we get started, I should note that I&#x27;m not a web development expert. However, I love tinkering with technology and learning new things, and that&#x27;s how I ended up taking on this challenge.&lt;&#x2F;p&gt;
@@ -141,5 +147,5 @@ set up SMTP service&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;*text ai generated&lt;&#x2F;p&gt;
 </content>
-	</entry>
+    </entry>
 </feed>

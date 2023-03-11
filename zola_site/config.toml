@@ -1,8 +1,8 @@
 # The URL the site will be built for
 base_url = "https://vanguyen.info"
 
-title = "Van Nguyen"
-description = "Personal blog"
+title = "vanbuncha"
+description = "Personal site for documenting projects and blogging stuff."
 default_language = "en"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -18,9 +18,7 @@ generate_feed = true
 # The taxonomies to be rendered for the site and their configuration of the default languages
 taxonomies = [
     { name = "tags", feed = true, lang = "en" },
-    { name = "tags", feed = true, lang = "zh" },
     { name = "categories", feed = true, lang = "en" },
-    { name = "categories", feed = true, lang = "zh" },
 ]
 
 [markdown]
@@ -33,15 +31,7 @@ highlight_theme = "material-light"
 
 [languages]
 
-[languages.en]
-title = "vanbuncha"
-description = "personal site"
-generate_feed = true
-feed_filename = "atom.xml"
-taxonomies = [
-    { name = "tags", feed = true, lang = "en" },
-    { name = "categories", feed = true, lang = "en" },
-]
+ 
 
 [languages.en.translations]
 projects = "Projects"
