@@ -21,3 +21,7 @@ If you find any issues with this site or have suggestions for improvements, plea
 
 ## License
 This site is licensed under the MIT License. See the LICENSE file for more information.
+
+## Credit
+
+Thanks for the theme Justin Tennant!
