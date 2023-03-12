@@ -60,4 +60,5 @@ Building this simple Spotify player was a fun and rewarding experience. I learne
 
 - [ ] Add logout option
 - [ ] Fetch info about user
+- [ ] Fix Currently playing box
 
