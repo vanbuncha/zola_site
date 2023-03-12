@@ -55,3 +55,9 @@ After completing these steps, your Spotify player will be successfully deployed 
 Building this simple Spotify player was a fun and rewarding experience. I learned a lot about the Spotify Web API and how to use it to create a seamless music playback experience for the user. If you're interested in building your own music player using JavaScript, I highly recommend exploring the Spotify Web API and experimenting with the various features and functionalities it offers. With a little bit of creativity and some JavaScript skills, you can create a custom music player that's tailored to your personal preferences and music taste.
 
 <a href="https://vanguyen.info/spotify_api_project/">Link to the Spotify API project</a>
+
+# To-Do List
+
+- [ ] Add logout option
+- [ ] Fetch info about user
+
