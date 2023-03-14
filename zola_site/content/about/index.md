@@ -18,12 +18,4 @@ Eternal bachelor student <a href="https://www.instagram.com/fis_vse/?hl=en">@fis
 
 Photography enjoyer. Owner of Fujifilm FP X100.
 
-Hopefully a future dev. (looking for job xd)
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
