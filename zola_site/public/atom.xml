@@ -59,6 +59,8 @@ Add logout option&lt;&#x2F;li&gt;
 Fetch info about user&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
 Fix Currently playing box&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Passively check currently playing song&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
     </entry>
