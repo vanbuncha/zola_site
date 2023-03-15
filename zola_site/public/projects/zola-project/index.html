@@ -84,7 +84,7 @@
 <div class="article-info">
     
     
-    <div class="article-date">February 28, 2023 ◦ 6 min</div>
+    <div class="article-date">February 28, 2023 ◦ 7 min</div>
     
     <div class="article-taxonomies">
         
@@ -134,6 +134,15 @@
 <pre style="background-color:#fafafa;color:#80cbc4;"><code><span>*/XXX * * * * /path/to/gitreplace.sh &gt; /path/to/gitreplace.log 2&gt;&amp;1
 </span></code></pre>
 <p>This tells cron to run the deploy.sh script every 10 minutes, and to log any output or errors to /path/to/deploy.log. With this setup, I can make changes to my website on GitHub and have them reflected on my server within minutes.</p>
+<p>Edit, the actual script:
+*/XXX * * * * sudo env -i $(cat /proc/$(pgrep -f &quot;cron&quot;)/environ | tr '\0' '\n' | grep -v &quot;^LANG=&quot; | grep -v &quot;^LC_&quot; | xargs) /var/www/gitreplace.sh</p>
+<p>For some weird reason the first doesn't work.</p>
+<ul>
+<li>Checked permission to files.</li>
+<li>removed sudo from script</li>
+<li>removed logging part</li>
+</ul>
+<p>The second script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way lololol. Took 2 hours. It works. Its good.</p>
 <p>** This script also updates <a href="https://vanguyen.info/spotify_api_project/">Spotify API project</a></p>
 <h2 id="remote-control-and-deployment">Remote control and deployment</h2>
 <p>Accessing my Raspberry Pi on my local network was easy using SSH. I simply opened up the terminal on my computer and entered the command:</p>
