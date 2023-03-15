@@ -182,15 +182,17 @@ set up SMTP service&lt;&#x2F;li&gt;
 &lt;pre style=&quot;background-color:#fafafa;color:#80cbc4;&quot;&gt;&lt;code&gt;&lt;span&gt;*&#x2F;XXX * * * * &#x2F;path&#x2F;to&#x2F;gitreplace.sh &amp;gt; &#x2F;path&#x2F;to&#x2F;gitreplace.log 2&amp;gt;&amp;amp;1
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;This tells cron to run the deploy.sh script every 10 minutes, and to log any output or errors to &#x2F;path&#x2F;to&#x2F;deploy.log. With this setup, I can make changes to my website on GitHub and have them reflected on my server within minutes.&lt;&#x2F;p&gt;
-&lt;p&gt;Edit, the actual script:
-*&#x2F;XXX * * * * sudo env -i $(cat &#x2F;proc&#x2F;$(pgrep -f &amp;quot;cron&amp;quot;)&#x2F;environ | tr &#x27;\0&#x27; &#x27;\n&#x27; | grep -v &amp;quot;^LANG=&amp;quot; | grep -v &amp;quot;^LC_&amp;quot; | xargs) &#x2F;var&#x2F;www&#x2F;gitreplace.sh&lt;&#x2F;p&gt;
+&lt;p&gt;Edit, the actual script:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fafafa;color:#80cbc4;&quot;&gt;&lt;code&gt;&lt;span&gt;*&#x2F;XXX * * * * sudo env -i $(cat &#x2F;proc&#x2F;$(pgrep -f &amp;quot;cron&amp;quot;)&#x2F;environ | tr &amp;#39;\0&amp;#39; &amp;#39;\n&amp;#39; | grep -v &amp;quot;^LANG=&amp;quot; | grep -v &amp;quot;^LC_&amp;quot; | xargs) &#x2F;var&#x2F;www&#x2F;gitreplace.sh
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;For some weird reason the first doesn&#x27;t work.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Checked permission to files.&lt;&#x2F;li&gt;
 &lt;li&gt;removed sudo from script&lt;&#x2F;li&gt;
 &lt;li&gt;removed logging part&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;The second script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way lololol. Took 2 hours. It works. Its good.&lt;&#x2F;p&gt;
+&lt;p&gt;The second script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way lololol. &lt;&#x2F;p&gt;
+&lt;p&gt;Took 2 hours. It works. Its good.&lt;&#x2F;p&gt;
 &lt;p&gt;** This script also updates &lt;a href=&quot;https:&#x2F;&#x2F;vanguyen.info&#x2F;spotify_api_project&#x2F;&quot;&gt;Spotify API project&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;remote-control-and-deployment&quot;&gt;Remote control and deployment&lt;&#x2F;h2&gt;
 &lt;p&gt;Accessing my Raspberry Pi on my local network was easy using SSH. I simply opened up the terminal on my computer and entered the command:&lt;&#x2F;p&gt;
