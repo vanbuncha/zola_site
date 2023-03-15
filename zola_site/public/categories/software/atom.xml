@@ -189,6 +189,7 @@ set up SMTP service&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;The script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way lololol. &lt;&#x2F;p&gt;
 &lt;p&gt;Took 2 hours. It works. Its good.&lt;&#x2F;p&gt;
+&lt;p&gt;p.s the pgrep -f &amp;quot;cron&amp;quot; is replaced by the ID of cron process.&lt;&#x2F;p&gt;
 &lt;p&gt;** This script also updates &lt;a href=&quot;https:&#x2F;&#x2F;vanguyen.info&#x2F;spotify_api_project&#x2F;&quot;&gt;Spotify API project&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;remote-control-and-deployment&quot;&gt;Remote control and deployment&lt;&#x2F;h2&gt;
 &lt;p&gt;Accessing my Raspberry Pi on my local network was easy using SSH. I simply opened up the terminal on my computer and entered the command:&lt;&#x2F;p&gt;
