@@ -59,7 +59,7 @@ sudo rm -rf zola_site
 ```
 First, the script clones my GitHub repository onto my Raspberry Pi using sudo git clone https://github.com/vanbuncha/zola_site. Next, it moves the public folder from the cloned repository to the current directory using sudo mv zola_site/zola_site/public .. It then removes any existing html directory using sudo rm -rf html to avoid conflicts, and renames the public directory to html, which is the default directory for Apache to serve web pages from, using sudo mv public html. Lastly, it cleans up the cloned repository using sudo rm -rf zola_site to keep things tidy.
 
-To ensure that my website is always up-to-date, I've set up a <b>cron</b> job to run the gitreplace.sh script every 222 minutes. This is done by adding the following line to my crontab file using crontab -e:
+To ensure that my website is always up-to-date, I've set up a <b>cron</b> job to run the gitreplace.sh script every 222 minutes. This is done by adding the following line to my crontab file using crontab -e: PLEASE WORK
 
 
     */10 * * * * /path/to/gitreplace.sh > /path/to/gitreplace.log 2>&1
