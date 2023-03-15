@@ -61,20 +61,14 @@ First, the script clones my GitHub repository onto my Raspberry Pi using sudo gi
 
 To ensure that my website is always up-to-date, I've set up a <b>cron</b> job to run the gitreplace.sh script every XXX minutes. This is done by adding the following line to my crontab file using crontab -e: 
 
-
-    */XXX * * * * /path/to/gitreplace.sh > /path/to/gitreplace.log 2>&1
-This tells cron to run the deploy.sh script every 10 minutes, and to log any output or errors to /path/to/deploy.log. With this setup, I can make changes to my website on GitHub and have them reflected on my server within minutes.
-
-Edit, the actual script:
-
     */XXX * * * * sudo env -i $(cat /proc/$(pgrep -f "cron")/environ | tr '\0' '\n' | grep -v "^LANG=" | grep -v "^LC_" | xargs) /var/www/gitreplace.sh
 
-For some weird reason the first doesn't work.
+For some weird reason the usual way didnt work.
 - Checked permission to files.
 - removed sudo from script
 - removed logging part
 
-The second script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way lololol. 
+The script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way lololol. 
 
 Took 2 hours. It works. Its good.
 
