@@ -63,12 +63,12 @@ To ensure that my website is always up-to-date, I've set up a <b>cron</b> job to
 
     */XXX * * * * sudo env -i $(cat /proc/$(pgrep -f "cron")/environ | tr '\0' '\n' | grep -v "^LANG=" | grep -v "^LC_" | xargs) /var/www/gitreplace.sh
 
-For some weird reason the usual way didnt work.
+For some weird reason the usual way didnt work so I had to resolve to above obscure way.
 - Checked permission to files.
 - removed sudo from script
 - removed logging part
 
-The script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way lololol. 
+The script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way. 
 
 Took 2 hours. It works. Its good.
 
@@ -100,4 +100,3 @@ Deploying my website onto a Raspberry Pi with Apache server using Cloudflare and
 - Port forwarding: Cloudfare Tunnel
 - Content: SSG Zola 
 
-*text ai generated

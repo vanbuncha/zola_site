@@ -181,13 +181,13 @@ set up SMTP service&lt;&#x2F;li&gt;
 &lt;p&gt;To ensure that my website is always up-to-date, I&#x27;ve set up a &lt;b&gt;cron&lt;&#x2F;b&gt; job to run the gitreplace.sh script every XXX minutes. This is done by adding the following line to my crontab file using crontab -e: &lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#fafafa;color:#80cbc4;&quot;&gt;&lt;code&gt;&lt;span&gt;*&#x2F;XXX * * * * sudo env -i $(cat &#x2F;proc&#x2F;$(pgrep -f &amp;quot;cron&amp;quot;)&#x2F;environ | tr &amp;#39;\0&amp;#39; &amp;#39;\n&amp;#39; | grep -v &amp;quot;^LANG=&amp;quot; | grep -v &amp;quot;^LC_&amp;quot; | xargs) &#x2F;var&#x2F;www&#x2F;gitreplace.sh
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;For some weird reason the usual way didnt work.&lt;&#x2F;p&gt;
+&lt;p&gt;For some weird reason the usual way didnt work so I had to resolve to above obscure way.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Checked permission to files.&lt;&#x2F;li&gt;
 &lt;li&gt;removed sudo from script&lt;&#x2F;li&gt;
 &lt;li&gt;removed logging part&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;The script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way lololol. &lt;&#x2F;p&gt;
+&lt;p&gt;The script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way. &lt;&#x2F;p&gt;
 &lt;p&gt;Took 2 hours. It works. Its good.&lt;&#x2F;p&gt;
 &lt;p&gt;p.s the pgrep -f &amp;quot;cron&amp;quot; is replaced by the ID of cron process.&lt;&#x2F;p&gt;
 &lt;p&gt;** This script also updates &lt;a href=&quot;https:&#x2F;&#x2F;vanguyen.info&#x2F;spotify_api_project&#x2F;&quot;&gt;Spotify API project&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -207,7 +207,6 @@ set up SMTP service&lt;&#x2F;li&gt;
 &lt;li&gt;Port forwarding: Cloudfare Tunnel&lt;&#x2F;li&gt;
 &lt;li&gt;Content: SSG Zola &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;*text ai generated&lt;&#x2F;p&gt;
 </content>
     </entry>
 </feed>
