@@ -16,6 +16,7 @@
         </author>
         <link rel="alternate" href="https://vanguyen.info/blog/42experience/" type="text/html"/>
         <id>https://vanguyen.info/blog/42experience/</id>
+        
         <content type="html">&lt;h1 id=&quot;what-is-42&quot;&gt;What is 42&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-42&quot; aria-label=&quot;Anchor link for: what-is-42&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;42 is a global network of tuition-free, peer-to-peer coding schools that is revolutionizing the way people learn how to code. Founded in France in 2013, 42 has since expanded to more than 20 locations around the world, including the United States, Russia, Morocco, and the Czech Republic. At 42, there are no traditional teachers or lectures. Instead, students work collaboratively on coding projects and provide feedback to each other to develop their skills. This unique approach to education is designed to be adaptable to the rapidly changing demands of the tech industry and encourages students to become self-directed learners and problem solvers. With its innovative curriculum, flexible learning environment, and global reach, 42 is paving the way for the next generation of coders.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;personal-experience&quot;&gt;Personal experience&lt;a class=&quot;zola-anchor&quot; href=&quot;#personal-experience&quot; aria-label=&quot;Anchor link for: personal-experience&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
@@ -59,6 +60,7 @@
 &lt;li&gt;By Odin, by Thor! Use your Brain !!!&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 </content>
+        
     </entry>
     <entry xml:lang="en">
         <title>Spotify API</title>
@@ -69,6 +71,7 @@
         </author>
         <link rel="alternate" href="https://vanguyen.info/projects/spotify-api-project/" type="text/html"/>
         <id>https://vanguyen.info/projects/spotify-api-project/</id>
+        
         <content type="html">&lt;h1 id=&quot;building-a-simple-spotify-player-with-javascript&quot;&gt;Building a Simple Spotify Player with JavaScript&lt;&#x2F;h1&gt;
 &lt;p&gt;As a music lover and a web developer, I have always been interested in exploring the Spotify Web API and building a simple web application that can control my music playback on the platform. So, I decided to create a simple Spotify player using JavaScript that allows me to log in to my account, fetch my playlists and songs, and control my music playback from a single interface.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;&#x2F;h2&gt;
@@ -116,6 +119,7 @@ Fix Currently playing box&lt;&#x2F;li&gt;
 Passively check currently playing song&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
+        
     </entry>
     <entry xml:lang="en">
         <title>File service - Nextcloud</title>
@@ -126,6 +130,7 @@ Passively check currently playing song&lt;&#x2F;li&gt;
         </author>
         <link rel="alternate" href="https://vanguyen.info/projects/nextcloud/" type="text/html"/>
         <id>https://vanguyen.info/projects/nextcloud/</id>
+        
         <content type="html">&lt;p&gt;Self hosted file service&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;part-one-subdomain&quot;&gt;Part one -- subdomain&lt;&#x2F;h1&gt;
 &lt;p&gt;As a web developer, I am always looking for new ways to improve my setup and make my web development projects more accessible to others. Recently, I decided to try and add a subdomain to my Raspberry Pi Apache server using Cloudflare Tunnel, but unfortunately, I did not have success. Here is my experience.&lt;&#x2F;p&gt;
@@ -194,6 +199,7 @@ Use external storage&lt;&#x2F;li&gt;
 set up SMTP service&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
+        
     </entry>
     <entry xml:lang="en">
         <title>Public website</title>
@@ -204,63 +210,10 @@ set up SMTP service&lt;&#x2F;li&gt;
         </author>
         <link rel="alternate" href="https://vanguyen.info/projects/zola-project/" type="text/html"/>
         <id>https://vanguyen.info/projects/zola-project/</id>
-        <content type="html">&lt;p&gt;Public website with self-hosting&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;deploying-my-website-onto-a-raspberry-pi-with-apache-server-using-cloudflare-and-ssg-zola&quot;&gt;Deploying My Website onto a Raspberry Pi with Apache Server using Cloudflare and SSG Zola&lt;&#x2F;h1&gt;
-&lt;p&gt;Hello, fellow tech enthusiasts! In this blog post, I&#x27;m excited to share my experience of deploying my website onto a Raspberry Pi with Apache server using Cloudflare and SSG Zola.&lt;&#x2F;p&gt;
-&lt;p&gt;Before we get started, I should note that I&#x27;m not a web development expert. However, I love tinkering with technology and learning new things, and that&#x27;s how I ended up taking on this challenge.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;installing-apache-server&quot;&gt;Installing Apache Server&lt;&#x2F;h2&gt;
-&lt;p&gt;First things first, I made sure that my Raspberry Pi was up-to-date with the latest software updates. Next, I installed Apache server on the Pi by running the following command in the terminal:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#fafafa;color:#80cbc4;&quot;&gt;&lt;code&gt;&lt;span&gt;sudo apt-get install apache2
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Once Apache was up and running, I tested it out by typing the IP address of the Raspberry Pi into a web browser. Lo and behold, the Apache default page was displayed!&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;configuring-my-router-and-dns&quot;&gt;Configuring My Router and DNS&lt;&#x2F;h2&gt;
-&lt;p&gt;When I set out to host my website on a Raspberry Pi, I ran into a roadblock when I realized that my router was unable to port forward to the Pi due to my ISP&#x27;s carrier-grade NAT. I knew that I needed a solution that would allow me to host my website securely and reliably without relying on port forwarding. After some research, I came across Cloudflare Tunnel, which seemed like the perfect solution.&lt;&#x2F;p&gt;
-&lt;p&gt;To get started, I created an account on Cloudflare and downloaded the Cloudflare Tunnel CLI on my Raspberry Pi. I then configured the tunnel using the command line interface, specifying my local host and port number, and giving it a name.&lt;&#x2F;p&gt;
-&lt;p&gt;Once the tunnel was set up, I tested it out by visiting the hostname that Cloudflare had assigned to my tunnel. To my delight, my website was now accessible from the internet through Cloudflare&#x27;s servers. Even better, the tunnel was secured with TLS encryption, providing an added layer of security to my website.&lt;&#x2F;p&gt;
-&lt;p&gt;Using Cloudflare Tunnel allowed me to bypass my router&#x27;s inability to port forward to my Raspberry Pi, and host my website reliably and securely. The setup was relatively easy and straightforward, and I was able to get my website up and running in no time. If you&#x27;re facing a similar port forwarding issue, I highly recommend giving Cloudflare Tunnel a &lt;a href=&quot;https:&#x2F;&#x2F;pimylifeup.com&#x2F;raspberry-pi-cloudflare-tunnel&#x2F;&quot;&gt;try&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;installing-ssg-zola&quot;&gt;Installing SSG Zola&lt;&#x2F;h2&gt;
-&lt;p&gt;With Apache and DNS set up, I was ready to install SSG Zola, a static site generator. I used SSG Zola to create a simple website in Markdown language. Once the site was ready, I used the zola build command to generate the static HTML files for my website.&lt;&#x2F;p&gt;
-&lt;p&gt;SG Zola is a static site generator (SSG) that allows you to create fast, secure, and modern websites with ease. Unlike traditional content management systems (CMS) that require a database and server-side processing, static site generators like Zola generate static HTML, CSS, and JavaScript files that can be served directly by a web server, making them faster, more secure, and easier to host.&lt;&#x2F;p&gt;
-&lt;p&gt;Zola is written in Rust, a fast and safe systems programming language, and is designed to be easy to use and highly customizable. It comes with a powerful set of features, including a built-in web server for local development, support for templates, partials, and custom shortcodes, automatic image resizing and optimization, and support for multiple content formats including Markdown, HTML, and JSON.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;uploading-my-site-to-the-raspberry-pi&quot;&gt;Uploading My Site to the Raspberry Pi&lt;&#x2F;h2&gt;
-&lt;p&gt;To deploy my website from my GitHub repository, I use a simple bash script called gitreplace.sh. The script performs the following commands:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#fafafa;color:#80cbc4;&quot;&gt;&lt;code&gt;&lt;span&gt;sudo git clone https:&#x2F;&#x2F;github.com&#x2F;vanbuncha&#x2F;zola_site
-&lt;&#x2F;span&gt;&lt;span&gt;sudo mv zola_site&#x2F;zola_site&#x2F;public .
-&lt;&#x2F;span&gt;&lt;span&gt;sudo rm -rf html
-&lt;&#x2F;span&gt;&lt;span&gt;sudo mv public html
-&lt;&#x2F;span&gt;&lt;span&gt;sudo rm -rf zola_site
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;First, the script clones my GitHub repository onto my Raspberry Pi using sudo git clone https:&#x2F;&#x2F;github.com&#x2F;vanbuncha&#x2F;zola_site. Next, it moves the public folder from the cloned repository to the current directory using sudo mv zola_site&#x2F;zola_site&#x2F;public .. It then removes any existing html directory using sudo rm -rf html to avoid conflicts, and renames the public directory to html, which is the default directory for Apache to serve web pages from, using sudo mv public html. Lastly, it cleans up the cloned repository using sudo rm -rf zola_site to keep things tidy.&lt;&#x2F;p&gt;
-&lt;p&gt;To ensure that my website is always up-to-date, I&#x27;ve set up a &lt;b&gt;cron&lt;&#x2F;b&gt; job to run the gitreplace.sh script every XXX minutes. This is done by adding the following line to my crontab file using crontab -e: &lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#fafafa;color:#80cbc4;&quot;&gt;&lt;code&gt;&lt;span&gt;*&#x2F;XXX * * * * sudo env -i $(cat &#x2F;proc&#x2F;$(pgrep -f &amp;quot;cron&amp;quot;)&#x2F;environ | tr &amp;#39;\0&amp;#39; &amp;#39;\n&amp;#39; | grep -v &amp;quot;^LANG=&amp;quot; | grep -v &amp;quot;^LC_&amp;quot; | xargs) &#x2F;var&#x2F;www&#x2F;gitreplace.sh
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;For some weird reason the usual way didnt work so I had to resolve to above obscure way.&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Checked permission to files.&lt;&#x2F;li&gt;
-&lt;li&gt;removed sudo from script&lt;&#x2F;li&gt;
-&lt;li&gt;removed logging part&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;p&gt;The script clears all the environment variables for the command being run and sets only those that are necessary. The command fetches the environment variables of the cron process and sets them for the command being run. Which is ironic because its cron either way. &lt;&#x2F;p&gt;
-&lt;p&gt;Took 2 hours. It works. Its good.&lt;&#x2F;p&gt;
-&lt;p&gt;p.s the pgrep -f &amp;quot;cron&amp;quot; is replaced by the ID of cron process.&lt;&#x2F;p&gt;
-&lt;p&gt;** This script also updates &lt;a href=&quot;https:&#x2F;&#x2F;vanguyen.info&#x2F;spotify_api_project&#x2F;&quot;&gt;Spotify API project&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;remote-control-and-deployment&quot;&gt;Remote control and deployment&lt;&#x2F;h2&gt;
-&lt;p&gt;Accessing my Raspberry Pi on my local network was easy using SSH. I simply opened up the terminal on my computer and entered the command:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#fafafa;color:#80cbc4;&quot;&gt;&lt;code&gt;&lt;span&gt;ssh pi@192.168.1.XXX
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;where XXX is the IP address of my Raspberry Pi on the local network. This allowed me to connect to the Pi and access its command line interface from my computer. From there, I could run commands, manage files, and do pretty much anything else I needed to do on the Pi.&lt;&#x2F;p&gt;
-&lt;p&gt;However, accessing my Raspberry Pi from a public network was a different story. Because my ISP used carrier-grade NAT, I couldn&#x27;t access my Pi directly from the internet. This is where PiTunnel came in handy.&lt;&#x2F;p&gt;
-&lt;p&gt;PiTunnel is a service that allows you to create a secure tunnel to your Raspberry Pi from the internet, bypassing any NAT or firewall restrictions. To set it up, I created an account on the PiTunnel website and downloaded the PiTunnel client on my Raspberry Pi. I then configured the tunnel and started the client.&lt;&#x2F;p&gt;
-&lt;p&gt;With the tunnel running, I could access my Raspberry Pi from the internet by visiting the URL provided by PiTunnel. I could even use SSH to connect to the Pi and access its command line interface from anywhere in the world.&lt;&#x2F;p&gt;
-&lt;p&gt;Using SSH to access my Raspberry Pi on my local network and PiTunnel to access it from the internet made managing my Pi a breeze. I could access it from anywhere, run commands, manage files, and do pretty much anything else I needed to do without any hassle.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
-&lt;p&gt;Deploying my website onto a Raspberry Pi with Apache server using Cloudflare and SSG Zola was a fun and educational experience. It allowed me to learn more about web development, Linux administration, and networking. I hope that sharing my experience will inspire others to tinker with technology and explore new horizons.&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Webserver: Raspberry Pi 3 Model B, Raspbian, Apache&#x2F;2.4.54 (Debian)&lt;&#x2F;li&gt;
-&lt;li&gt;Port forwarding: Cloudfare Tunnel&lt;&#x2F;li&gt;
-&lt;li&gt;Content: SSG Zola &lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-</content>
+        
+        <summary type="html">&lt;p&gt;Public website with self-hosting&lt;&#x2F;p&gt;
+</summary>
+        
     </entry>
     <entry xml:lang="en">
         <title>Why vanbuncha</title>
@@ -271,6 +224,7 @@ set up SMTP service&lt;&#x2F;li&gt;
         </author>
         <link rel="alternate" href="https://vanguyen.info/blog/first-blog/" type="text/html"/>
         <id>https://vanguyen.info/blog/first-blog/</id>
+        
         <content type="html">&lt;h1 id=&quot;origin&quot;&gt;Origin?&lt;a class=&quot;zola-anchor&quot; href=&quot;#origin&quot; aria-label=&quot;Anchor link for: origin&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Have you ever wondered how the nickname &amp;quot;vanbuncha&amp;quot; came to be? Well, let me tell you the story.&lt;&#x2F;p&gt;
 &lt;p&gt;Picture this: it was 2012, and I was a young and enthusiastic fan of football. I was the only Asian on a team full of cheerful kids and adults, and as a result, they gave me the nickname &amp;quot;Fun Din Dung&amp;quot;. While it was popular amongst my peers, it wasn&#x27;t an original nickname until one day, my coach exclaimed &amp;quot;Van bún cùng chả&amp;quot; (in a Czech accent), referring to a Vietnamese dish that was becoming popular in the Czech Republic. And just like that, a new nickname was born.&lt;&#x2F;p&gt;
@@ -278,5 +232,6 @@ set up SMTP service&lt;&#x2F;li&gt;
 &lt;p&gt;Over the years, other nicknames have come and gone, such as &amp;quot;Wafik&amp;quot; (which means successful in Arabic) and &amp;quot;vanba&amp;quot; (derived from Ho Chi Minh&#x27;s alias during his stay on a French merchant steamer). But none of them have stuck like &amp;quot;vanbuncha&amp;quot;.&lt;&#x2F;p&gt;
 &lt;p&gt;Despite its joke origin and possible derogatory connotation to my ethnic origin, I still use the nickname to this day. After all, it&#x27;s all in good fun!&lt;&#x2F;p&gt;
 </content>
+        
     </entry>
 </feed>
