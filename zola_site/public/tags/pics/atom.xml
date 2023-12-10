@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>vanbuncha - pics</title>
+    <subtitle>Personal site for documenting projects and blogging stuff.</subtitle>
+    <link href="https://vanguyen.info/tags/pics/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vanguyen.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-12-10T00:00:00+00:00</updated>
+    <id>https://vanguyen.info/tags/pics/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Monk</title>
+        <published>2023-12-10T00:00:00+00:00</published>
+        <updated>2023-12-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://vanguyen.info/blog/pic1/" type="text/html"/>
+        <id>https://vanguyen.info/blog/pic1/</id>
+        
+        <content type="html">
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+        
+        
+        
+        
+        
+    
+
+&lt;figure class=&quot;extended-figure&quot;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;pics1.090b6565707166c8.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;figcaption&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&#x2F;maps&#x2F;place&#x2F;52%C2%B023&#x27;00.2%22N+4%C2%B055&#x27;45.6%22E&#x2F;@52.3833979,4.9267608,17z&#x2F;data=!3m1!4b1!4m4!3m3!8m2!3d52.3833947!4d4.9293357?entry=ttu&quot;&gt;55.51529345661104, 9.947775998223287&lt;&#x2F;a&gt;&lt;&#x2F;figcaption&gt;
+&lt;hr &#x2F;&gt;
+&lt;center&gt;Brazilian skies &lt;&#x2F;center&gt;
+&lt;center&gt;Monk ascends mountain whispers &lt;&#x2F;center&gt;
+&lt;center&gt;Earth and spirit rise &lt;&#x2F;center&gt;
+</content>
+        
+    </entry>
+</feed>
