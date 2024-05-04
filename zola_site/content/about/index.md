@@ -12,10 +12,11 @@ template = "about.html"
 
 It's me Van Nguyen aka vanbuncha.
 
-Eternal bachelor student <a href="https://www.instagram.com/fis_vse/?hl=en">@fis_vse</a>  and aspiring off-grid living fan.
+Eternal bachelor student <a href="https://www.instagram.com/fis_vse/?hl=en">@fis_vse</a>.
 
-<a href="https://www.instagram.com/tomoa_narasaki/?hl=en">Tomoa</a> Narasaki wannabe.
+Master student in Data Science at <a href="https://www.instagram.com/universiteitleiden/?hl=en">@universiteitleiden</a>.
 
-Photography enjoyer. Owner of Fujifilm FP X100.
+My <a href=about/cv.pdf>Curriculum Vitae </a>.
+
 
 
