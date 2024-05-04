@@ -2,22 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>vanbuncha</title>
     <subtitle>Personal site for documenting projects and blogging stuff.</subtitle>
-    <link href="https://vanguyen.info/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://vanguyen.info"/>
+    <link rel="self" type="application/atom+xml" href="https://vanguyen.info/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://vanguyen.info"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-12-10T00:00:00+00:00</updated>
+    <updated>2024-05-04T00:00:00+00:00</updated>
     <id>https://vanguyen.info/atom.xml</id>
     <entry xml:lang="en">
-        <title>Monk</title>
-        <published>2023-12-10T00:00:00+00:00</published>
-        <updated>2023-12-10T00:00:00+00:00</updated>
-        <author>
-          <name>Unknown</name>
-        </author>
-        <link rel="alternate" href="https://vanguyen.info/blog/pic1/" type="text/html"/>
-        <id>https://vanguyen.info/blog/pic1/</id>
+        <title>Fellas</title>
+        <published>2024-05-04T00:00:00+00:00</published>
+        <updated>2024-05-04T00:00:00+00:00</updated>
         
-        <content type="html">
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/pic2/"/>
+        <id>https://vanguyen.info/blog/pic2/</id>
+        
+        <content type="html" xml:base="https://vanguyen.info/blog/pic2/">
 
 
 
@@ -43,7 +49,60 @@
     
 
 &lt;figure class=&quot;extended-figure&quot;&gt;
-    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;pics1.090b6565707166c8.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;fellas.c7387cb5b3106a78.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;figcaption&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&#x2F;maps&#x2F;place&#x2F;52%C2%B022&#x27;30.0%22N+4%C2%B053&#x27;56.4%22E&#x2F;@52.375,4.8964251,17z&#x2F;data=!3m1!4b1!4m4!3m3!8m2!3d52.375!4d4.899?entry=ttu&quot;&gt;52.375000, 4.899000&lt;&#x2F;a&gt;&lt;&#x2F;figcaption&gt;
+&lt;hr &#x2F;&gt;
+&lt;center&gt;Fellas in Amsterdam, &lt;&#x2F;center&gt;
+&lt;center&gt;Pink gin in hand, stories spin, &lt;&#x2F;center&gt;
+&lt;center&gt;Night&#x27;s tale begins. &lt;&#x2F;center&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Monk</title>
+        <published>2023-12-10T00:00:00+00:00</published>
+        <updated>2023-12-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/pic1/"/>
+        <id>https://vanguyen.info/blog/pic1/</id>
+        
+        <content type="html" xml:base="https://vanguyen.info/blog/pic1/">
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+        
+        
+        
+        
+        
+    
+
+&lt;figure class=&quot;extended-figure&quot;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;pics1.7c9bdbff0feca3c1.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
     
 &lt;&#x2F;figure&gt;
 &lt;figcaption&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&#x2F;maps&#x2F;place&#x2F;52%C2%B023&#x27;00.2%22N+4%C2%B055&#x27;45.6%22E&#x2F;@52.3833979,4.9267608,17z&#x2F;data=!3m1!4b1!4m4!3m3!8m2!3d52.3833947!4d4.9293357?entry=ttu&quot;&gt;55.51529345661104, 9.947775998223287&lt;&#x2F;a&gt;&lt;&#x2F;figcaption&gt;
@@ -58,13 +117,19 @@
         <title>Journal 01</title>
         <published>2023-08-05T00:00:00+00:00</published>
         <updated>2023-08-05T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://vanguyen.info/blog/journal00001/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/journal00001/"/>
         <id>https://vanguyen.info/blog/journal00001/</id>
         
-        <content type="html">&lt;p&gt;Encrypted with fernet lib.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://vanguyen.info/blog/journal00001/">&lt;p&gt;Encrypted with fernet lib.&lt;&#x2F;p&gt;
 &lt;p&gt;gAAAAABkz_2AZzy32Bk6AHQcFPu1GsTzwM4PhgN13aYrjaq2N6E0gCAnAq-9jljqOT81NkbSxVK5PPIjzTRgE7bigsgB54Mg3nWw
 v_Ppl_cqkCgi19X88qHzwMp6DsWVPSmhwDA46TbTWWj55JI8X2Jt1rwYms6tGN1llw-CO-FaTcwFoL8Qt0Lyy0jx36StqObmeymd
 Y42dBsDF2dKcw8CoaKXU1IR_vnUGLWeGaEaEu7AvXuNMxJxqP4erss5tYB3yJA_shEovE0T26HjQjFp8t4Lue2c2YsxAowevUw-C
@@ -109,13 +174,19 @@ z57lXu7RqqfqGoX6qUze4MVCkswL9DZ3AGRWl2I=&lt;&#x2F;p&gt;
         <title>42 Prague experience</title>
         <published>2023-03-29T00:00:00+00:00</published>
         <updated>2023-03-29T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://vanguyen.info/blog/42experience/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/42experience/"/>
         <id>https://vanguyen.info/blog/42experience/</id>
         
-        <content type="html">&lt;h1 id=&quot;what-is-42&quot;&gt;What is 42&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-42&quot; aria-label=&quot;Anchor link for: what-is-42&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://vanguyen.info/blog/42experience/">&lt;h1 id=&quot;what-is-42&quot;&gt;What is 42&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-42&quot; aria-label=&quot;Anchor link for: what-is-42&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;42 is a global network of tuition-free, peer-to-peer coding schools that is revolutionizing the way people learn how to code. Founded in France in 2013, 42 has since expanded to more than 20 locations around the world, including the United States, Russia, Morocco, and the Czech Republic. At 42, there are no traditional teachers or lectures. Instead, students work collaboratively on coding projects and provide feedback to each other to develop their skills. This unique approach to education is designed to be adaptable to the rapidly changing demands of the tech industry and encourages students to become self-directed learners and problem solvers. With its innovative curriculum, flexible learning environment, and global reach, 42 is paving the way for the next generation of coders.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;personal-experience&quot;&gt;Personal experience&lt;a class=&quot;zola-anchor&quot; href=&quot;#personal-experience&quot; aria-label=&quot;Anchor link for: personal-experience&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;I recently completed the 42 piscine, a four-week intensive coding bootcamp offered by the 42 network. Throughout the program, I dove deep into the world of C programming, learning the language from scratch. One of the best things about the piscine was participating in the exams, which sometimes lasted for five hours or more. While it may sound like a lot of time, the exams flew by as they were incredibly challenging and rewarding. Additionally, I discovered a newfound appreciation for vim, a powerful text editor that became my go-to tool throughout the program. Overall, the 42 piscine taught me not only the fundamentals of C programming but also the importance of perseverance, collaboration, and a willingness to learn.&lt;&#x2F;p&gt;
@@ -164,13 +235,19 @@ z57lXu7RqqfqGoX6qUze4MVCkswL9DZ3AGRWl2I=&lt;&#x2F;p&gt;
         <title>Spotify API</title>
         <published>2023-03-12T00:00:00+00:00</published>
         <updated>2023-03-12T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://vanguyen.info/projects/spotify-api-project/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/projects/spotify-api-project/"/>
         <id>https://vanguyen.info/projects/spotify-api-project/</id>
         
-        <content type="html">&lt;h1 id=&quot;building-a-simple-spotify-player-with-javascript&quot;&gt;Building a Simple Spotify Player with JavaScript&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://vanguyen.info/projects/spotify-api-project/">&lt;h1 id=&quot;building-a-simple-spotify-player-with-javascript&quot;&gt;Building a Simple Spotify Player with JavaScript&lt;&#x2F;h1&gt;
 &lt;p&gt;As a music lover and a web developer, I have always been interested in exploring the Spotify Web API and building a simple web application that can control my music playback on the platform. So, I decided to create a simple Spotify player using JavaScript that allows me to log in to my account, fetch my playlists and songs, and control my music playback from a single interface.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;&#x2F;h2&gt;
 &lt;p&gt;To build this project, I used the following technologies:&lt;&#x2F;p&gt;
@@ -223,13 +300,19 @@ Passively check currently playing song&lt;&#x2F;li&gt;
         <title>File service - Nextcloud</title>
         <published>2023-03-09T00:00:00+00:00</published>
         <updated>2023-03-09T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://vanguyen.info/projects/nextcloud/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/projects/nextcloud/"/>
         <id>https://vanguyen.info/projects/nextcloud/</id>
         
-        <content type="html">&lt;p&gt;Self hosted file service&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://vanguyen.info/projects/nextcloud/">&lt;p&gt;Self hosted file service&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;part-one-subdomain&quot;&gt;Part one -- subdomain&lt;&#x2F;h1&gt;
 &lt;p&gt;As a web developer, I am always looking for new ways to improve my setup and make my web development projects more accessible to others. Recently, I decided to try and add a subdomain to my Raspberry Pi Apache server using Cloudflare Tunnel, but unfortunately, I did not have success. Here is my experience.&lt;&#x2F;p&gt;
 &lt;p&gt;First, I set up my Raspberry Pi with Apache, following various tutorials on the web. I also configured my router to forward incoming requests to the Raspberry Pi’s IP address, so that the web server could be accessed from the internet. Next, I signed up for a Cloudflare account and set up a tunnel to my Raspberry Pi using the Cloudflare CLI. This was relatively easy, and I was able to connect to my web server using the tunnel URL provided by Cloudflare.&lt;&#x2F;p&gt;
@@ -303,10 +386,16 @@ set up SMTP service&lt;&#x2F;li&gt;
         <title>Public website</title>
         <published>2023-02-28T00:00:00+00:00</published>
         <updated>2023-02-28T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://vanguyen.info/projects/zola-project/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/projects/zola-project/"/>
         <id>https://vanguyen.info/projects/zola-project/</id>
         
         <summary type="html">&lt;p&gt;Public website with self-hosting&lt;&#x2F;p&gt;
@@ -317,13 +406,19 @@ set up SMTP service&lt;&#x2F;li&gt;
         <title>Why vanbuncha</title>
         <published>2023-02-20T00:00:00+00:00</published>
         <updated>2023-02-20T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://vanguyen.info/blog/first-blog/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/first-blog/"/>
         <id>https://vanguyen.info/blog/first-blog/</id>
         
-        <content type="html">&lt;h1 id=&quot;origin&quot;&gt;Origin?&lt;a class=&quot;zola-anchor&quot; href=&quot;#origin&quot; aria-label=&quot;Anchor link for: origin&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://vanguyen.info/blog/first-blog/">&lt;h1 id=&quot;origin&quot;&gt;Origin?&lt;a class=&quot;zola-anchor&quot; href=&quot;#origin&quot; aria-label=&quot;Anchor link for: origin&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Have you ever wondered how the nickname &amp;quot;vanbuncha&amp;quot; came to be? Well, let me tell you the story.&lt;&#x2F;p&gt;
 &lt;p&gt;Picture this: it was 2012, and I was a young and enthusiastic fan of football. I was the only Asian on a team full of cheerful kids and adults, and as a result, they gave me the nickname &amp;quot;Fun Din Dung&amp;quot;. While it was popular amongst my peers, it wasn&#x27;t an original nickname until one day, my coach exclaimed &amp;quot;Van bún cùng chả&amp;quot; (in a Czech accent), referring to a Vietnamese dish that was becoming popular in the Czech Republic. And just like that, a new nickname was born.&lt;&#x2F;p&gt;
 &lt;p&gt;On September 6th, 2012, I immortalized this new nickname by creating the email vanbuncha.nguyen, which I still use to this day.&lt;&#x2F;p&gt;

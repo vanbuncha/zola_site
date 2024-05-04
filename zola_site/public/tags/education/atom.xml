@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>vanbuncha - education</title>
     <subtitle>Personal site for documenting projects and blogging stuff.</subtitle>
-    <link href="https://vanguyen.info/tags/education/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://vanguyen.info"/>
+    <link rel="self" type="application/atom+xml" href="https://vanguyen.info/tags/education/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://vanguyen.info"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2023-03-29T00:00:00+00:00</updated>
     <id>https://vanguyen.info/tags/education/atom.xml</id>
@@ -11,13 +11,19 @@
         <title>42 Prague experience</title>
         <published>2023-03-29T00:00:00+00:00</published>
         <updated>2023-03-29T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://vanguyen.info/blog/42experience/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/42experience/"/>
         <id>https://vanguyen.info/blog/42experience/</id>
         
-        <content type="html">&lt;h1 id=&quot;what-is-42&quot;&gt;What is 42&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-42&quot; aria-label=&quot;Anchor link for: what-is-42&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://vanguyen.info/blog/42experience/">&lt;h1 id=&quot;what-is-42&quot;&gt;What is 42&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-42&quot; aria-label=&quot;Anchor link for: what-is-42&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;42 is a global network of tuition-free, peer-to-peer coding schools that is revolutionizing the way people learn how to code. Founded in France in 2013, 42 has since expanded to more than 20 locations around the world, including the United States, Russia, Morocco, and the Czech Republic. At 42, there are no traditional teachers or lectures. Instead, students work collaboratively on coding projects and provide feedback to each other to develop their skills. This unique approach to education is designed to be adaptable to the rapidly changing demands of the tech industry and encourages students to become self-directed learners and problem solvers. With its innovative curriculum, flexible learning environment, and global reach, 42 is paving the way for the next generation of coders.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;personal-experience&quot;&gt;Personal experience&lt;a class=&quot;zola-anchor&quot; href=&quot;#personal-experience&quot; aria-label=&quot;Anchor link for: personal-experience&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;I recently completed the 42 piscine, a four-week intensive coding bootcamp offered by the 42 network. Throughout the program, I dove deep into the world of C programming, learning the language from scratch. One of the best things about the piscine was participating in the exams, which sometimes lasted for five hours or more. While it may sound like a lot of time, the exams flew by as they were incredibly challenging and rewarding. Additionally, I discovered a newfound appreciation for vim, a powerful text editor that became my go-to tool throughout the program. Overall, the 42 piscine taught me not only the fundamentals of C programming but also the importance of perseverance, collaboration, and a willingness to learn.&lt;&#x2F;p&gt;
