@@ -25,6 +25,10 @@
         <loc>https://vanguyen.info/blog/page/1/</loc>
     </url>
     <url>
+        <loc>https://vanguyen.info/blog/phedimus/</loc>
+        <lastmod>2024-09-13</lastmod>
+    </url>
+    <url>
         <loc>https://vanguyen.info/blog/pic1/</loc>
         <lastmod>2023-12-10</lastmod>
     </url>
@@ -67,5 +71,8 @@
     </url>
     <url>
         <loc>https://vanguyen.info/tags/pics/</loc>
+    </url>
+    <url>
+        <loc>https://vanguyen.info/tags/plants/</loc>
     </url>
 </urlset>
