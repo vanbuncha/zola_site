@@ -37,6 +37,10 @@
         <lastmod>2024-05-04</lastmod>
     </url>
     <url>
+        <loc>https://vanguyen.info/blog/ray/</loc>
+        <lastmod>2025-01-29</lastmod>
+    </url>
+    <url>
         <loc>https://vanguyen.info/categories/</loc>
     </url>
     <url>
@@ -48,10 +52,6 @@
     <url>
         <loc>https://vanguyen.info/projects/nextcloud/</loc>
         <lastmod>2023-03-09</lastmod>
-    </url>
-    <url>
-        <loc>https://vanguyen.info/projects/spotify-api-project/</loc>
-        <lastmod>2023-03-12</lastmod>
     </url>
     <url>
         <loc>https://vanguyen.info/projects/zola-project/</loc>

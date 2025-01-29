@@ -97,7 +97,7 @@
     <div class="content">
         <p>Self hosted file service</p>
 <h1 id="part-one-subdomain">Part one -- subdomain</h1>
-<p>As a web developer, I am always looking for new ways to improve my setup and make my web development projects more accessible to others. Recently, I decided to try and add a subdomain to my Raspberry Pi Apache server using Cloudflare Tunnel, but unfortunately, I did not have success. Here is my experience.</p>
+<p>I decided to try and add a subdomain to my Raspberry Pi Apache server using Cloudflare Tunnel, but unfortunately, I did not have success. Here is my experience.</p>
 <p>First, I set up my Raspberry Pi with Apache, following various tutorials on the web. I also configured my router to forward incoming requests to the Raspberry Pi’s IP address, so that the web server could be accessed from the internet. Next, I signed up for a Cloudflare account and set up a tunnel to my Raspberry Pi using the Cloudflare CLI. This was relatively easy, and I was able to connect to my web server using the tunnel URL provided by Cloudflare.</p>
 <p>Now, I wanted to add a subdomain to my setup. I had already registered a domain name with a popular registrar and set up Cloudflare as my DNS provider. I added an A record pointing to my Raspberry Pi’s IP address, and set up a CNAME record pointing to the tunnel URL provided by Cloudflare. I also added a Page Rule to forward all traffic to my subdomain to the tunnel URL. However, when I tried to access my subdomain, I was greeted with a 502 Bad Gateway error.</p>
 <p>I spent hours troubleshooting the issue, checking my Apache configuration files, and trying different combinations of DNS records and Page Rules. I also consulted various online forums and documentation, but I could not find a solution. Eventually, I realized that the issue might be with Cloudflare Tunnel itself, and not my setup.</p>
@@ -154,7 +154,7 @@ Installing Apache and PHP: I installed Apache web server and PHP on my Raspberry
 </span></code></pre>
 <p>Completing the Installation: Finally, I accessed the Nextcloud installation wizard by visiting vanguyen.info/nextcloud in my web browser. I entered the database details and created an administrator account, and then completed the installation.
 That's it! Now, I can access my Nextcloud instance by visiting vanguyen.info/nextcloud on my Raspberry Pi.</p>
-<p><a href="https://vanguyen.info/nextcloud/index.php/login">Link to Nextcloud</a> </p>
+<p><a href="https://vanguyen.info/nextcloud/index.php/login">Link to Nextcloud</a></p>
 <h1 id="to-do-list">To-Do List</h1>
 <ul>
 <li><input disabled="" type="checkbox"/>

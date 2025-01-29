@@ -12,7 +12,7 @@ Self hosted file service
 
 # Part one -- subdomain
 
-As a web developer, I am always looking for new ways to improve my setup and make my web development projects more accessible to others. Recently, I decided to try and add a subdomain to my Raspberry Pi Apache server using Cloudflare Tunnel, but unfortunately, I did not have success. Here is my experience.
+I decided to try and add a subdomain to my Raspberry Pi Apache server using Cloudflare Tunnel, but unfortunately, I did not have success. Here is my experience.
 
 First, I set up my Raspberry Pi with Apache, following various tutorials on the web. I also configured my router to forward incoming requests to the Raspberry Pi’s IP address, so that the web server could be accessed from the internet. Next, I signed up for a Cloudflare account and set up a tunnel to my Raspberry Pi using the Cloudflare CLI. This was relatively easy, and I was able to connect to my web server using the tunnel URL provided by Cloudflare.
 

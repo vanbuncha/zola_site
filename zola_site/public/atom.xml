@@ -5,8 +5,62 @@
     <link rel="self" type="application/atom+xml" href="https://vanguyen.info/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://vanguyen.info"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-09-13T00:00:00+00:00</updated>
+    <updated>2025-01-29T00:00:00+00:00</updated>
     <id>https://vanguyen.info/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Moldy Ray</title>
+        <published>2025-01-29T00:00:00+00:00</published>
+        <updated>2025-01-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/ray/"/>
+        <id>https://vanguyen.info/blog/ray/</id>
+        
+        <content type="html" xml:base="https://vanguyen.info/blog/ray/">
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+        
+        
+        
+        
+        
+    
+
+&lt;figure class=&quot;extended-figure&quot;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;ray.5b172bf055e2e3ab.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;figcaption&gt;Pfedimus&lt;&#x2F;figcaption&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &quot;Moldy Ray stands tall,
+bathed in long-lost golden light,
+dormant days now wake.&quot;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Phedimus</title>
         <published>2024-09-13T00:00:00+00:00</published>
@@ -283,71 +337,6 @@ z57lXu7RqqfqGoX6qUze4MVCkswL9DZ3AGRWl2I=&lt;&#x2F;p&gt;
         
     </entry>
     <entry xml:lang="en">
-        <title>Spotify API</title>
-        <published>2023-03-12T00:00:00+00:00</published>
-        <updated>2023-03-12T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://vanguyen.info/projects/spotify-api-project/"/>
-        <id>https://vanguyen.info/projects/spotify-api-project/</id>
-        
-        <content type="html" xml:base="https://vanguyen.info/projects/spotify-api-project/">&lt;h1 id=&quot;building-a-simple-spotify-player-with-javascript&quot;&gt;Building a Simple Spotify Player with JavaScript&lt;&#x2F;h1&gt;
-&lt;p&gt;As a music lover and a web developer, I have always been interested in exploring the Spotify Web API and building a simple web application that can control my music playback on the platform. So, I decided to create a simple Spotify player using JavaScript that allows me to log in to my account, fetch my playlists and songs, and control my music playback from a single interface.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;&#x2F;h2&gt;
-&lt;p&gt;To build this project, I used the following technologies:&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;JavaScript for the frontend code&lt;&#x2F;li&gt;
-&lt;li&gt;HTML and CSS for the UI&lt;&#x2F;li&gt;
-&lt;li&gt;Spotify Web API for accessing the Spotify platform
-To start building the application, I first had to create a Spotify Web API client ID and secret key, which I obtained by registering a new app on the Spotify Developer Dashboard. I then used the client ID and secret key in my JavaScript code to authenticate the user and fetch their data from the Spotify platform.&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;building-the-application&quot;&gt;Building the Application&lt;&#x2F;h2&gt;
-&lt;p&gt;The first step in building the application was to create a UI that allowed me to log in to my Spotify account and fetch my data from the platform. I used HTML and CSS to create a login form that allowed users to enter their Spotify credentials and authenticate the application.&lt;&#x2F;p&gt;
-&lt;p&gt;Once the user was authenticated, I used the Spotify Web API to fetch their playlists and songs from the platform. I then displayed this data on the UI in a user-friendly manner, allowing the user to easily navigate and control their music playback.&lt;&#x2F;p&gt;
-&lt;p&gt;To control the music playback, I used the Spotify Web API to play&#x2F;pause, skip to the next or previous track, and adjust the volume of the playback using JavaScript code.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;an-interesting-quirk&quot;&gt;An Interesting Quirk&lt;&#x2F;h2&gt;
-&lt;p&gt;As I was building this Spotify player, I noticed an interesting quirk that I had never encountered before. Whenever I made changes to my script.js or style.css files and tried to refresh my browser, the changes would not take effect. I would refresh the page multiple times and even clear my cache, but the old files would remain the same.&lt;&#x2F;p&gt;
-&lt;p&gt;After some investigation, I discovered that this issue was caused by browser caching. Browsers often cache static files like JavaScript and CSS files to improve page loading speed. However, this can also lead to issues when developing, as changes to these files may not be immediately reflected in the browser.&lt;&#x2F;p&gt;
-&lt;p&gt;To solve this issue, I found that renaming the file and updating the reference in my HTML file solved the problem. For example, if I made changes to script.js, I would rename the file to something like script-v2.js and update the reference in my HTML file accordingly. This forces the browser to recognize the updated file and load the new version.&lt;&#x2F;p&gt;
-&lt;p&gt;While this quirk may have caused some frustration (2hours of pure frustration) during development, it was an interesting discovery that taught me more about how browsers handle static files and caching. It also serves as a reminder to always double-check if changes are being reflected in the browser, and to clear the cache if necessary.&lt;&#x2F;p&gt;
-&lt;p&gt;Deployment
-After completing the development of my Spotify player using JavaScript, HTML, and CSS, I wanted to deploy it on my website and make it accessible to the public. To do this, I followed these simple steps:&lt;&#x2F;p&gt;
-&lt;p&gt;Connect to my web hosting provider and access the file manager for my website.
-Delete any existing files in the website directory where I wanted to deploy my application.
-SSH into your server and navigate to the directory where you want to deploy your application. Then, run the following commands:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#fafafa;color:#80cbc4;&quot;&gt;&lt;code&gt;&lt;span&gt;sudo rm -rf html&#x2F;spotify_api_project
-&lt;&#x2F;span&gt;&lt;span&gt;sudo git clone https:&#x2F;&#x2F;github.com&#x2F;vanbuncha&#x2F;spotify_api_project
-&lt;&#x2F;span&gt;&lt;span&gt;sudo mv spotify_api_project&#x2F;spotify_api_project html
-&lt;&#x2F;span&gt;&lt;span&gt;sudo rm -rf spotify_api_project
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;These commands will first delete any existing files in the html&#x2F;spotify_api_project directory, clone the GitHub repository containing your application, move the cloned repository to the html directory, and then delete the original cloned repository.&lt;&#x2F;p&gt;
-&lt;p&gt;Ensure that the file permissions for your application files are set correctly, so that they are readable by the web server.
-After completing these steps, your Spotify player will be successfully deployed on your website and will be accessible to the public. Anyone who visits the URL for your website can control their Spotify music playback using the web application, making it a convenient and fun addition to your website.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
-&lt;p&gt;Building this simple Spotify player was a fun and rewarding experience. I learned a lot about the Spotify Web API and how to use it to create a seamless music playback experience for the user. If you&#x27;re interested in building your own music player using JavaScript, I highly recommend exploring the Spotify Web API and experimenting with the various features and functionalities it offers. With a little bit of creativity and some JavaScript skills, you can create a custom music player that&#x27;s tailored to your personal preferences and music taste.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vanguyen.info&#x2F;spotify_api_project&#x2F;&quot;&gt;Link to the Spotify API project&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;to-do-list&quot;&gt;To-Do List&lt;&#x2F;h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Add logout option&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Fetch info about user&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Fix Currently playing box&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
-Passively check currently playing song&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>File service - Nextcloud</title>
         <published>2023-03-09T00:00:00+00:00</published>
         <updated>2023-03-09T00:00:00+00:00</updated>
@@ -365,7 +354,7 @@ Passively check currently playing song&lt;&#x2F;li&gt;
         
         <content type="html" xml:base="https://vanguyen.info/projects/nextcloud/">&lt;p&gt;Self hosted file service&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;part-one-subdomain&quot;&gt;Part one -- subdomain&lt;&#x2F;h1&gt;
-&lt;p&gt;As a web developer, I am always looking for new ways to improve my setup and make my web development projects more accessible to others. Recently, I decided to try and add a subdomain to my Raspberry Pi Apache server using Cloudflare Tunnel, but unfortunately, I did not have success. Here is my experience.&lt;&#x2F;p&gt;
+&lt;p&gt;I decided to try and add a subdomain to my Raspberry Pi Apache server using Cloudflare Tunnel, but unfortunately, I did not have success. Here is my experience.&lt;&#x2F;p&gt;
 &lt;p&gt;First, I set up my Raspberry Pi with Apache, following various tutorials on the web. I also configured my router to forward incoming requests to the Raspberry Pi’s IP address, so that the web server could be accessed from the internet. Next, I signed up for a Cloudflare account and set up a tunnel to my Raspberry Pi using the Cloudflare CLI. This was relatively easy, and I was able to connect to my web server using the tunnel URL provided by Cloudflare.&lt;&#x2F;p&gt;
 &lt;p&gt;Now, I wanted to add a subdomain to my setup. I had already registered a domain name with a popular registrar and set up Cloudflare as my DNS provider. I added an A record pointing to my Raspberry Pi’s IP address, and set up a CNAME record pointing to the tunnel URL provided by Cloudflare. I also added a Page Rule to forward all traffic to my subdomain to the tunnel URL. However, when I tried to access my subdomain, I was greeted with a 502 Bad Gateway error.&lt;&#x2F;p&gt;
 &lt;p&gt;I spent hours troubleshooting the issue, checking my Apache configuration files, and trying different combinations of DNS records and Page Rules. I also consulted various online forums and documentation, but I could not find a solution. Eventually, I realized that the issue might be with Cloudflare Tunnel itself, and not my setup.&lt;&#x2F;p&gt;
@@ -422,7 +411,7 @@ Installing Apache and PHP: I installed Apache web server and PHP on my Raspberry
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Completing the Installation: Finally, I accessed the Nextcloud installation wizard by visiting vanguyen.info&#x2F;nextcloud in my web browser. I entered the database details and created an administrator account, and then completed the installation.
 That&#x27;s it! Now, I can access my Nextcloud instance by visiting vanguyen.info&#x2F;nextcloud on my Raspberry Pi.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vanguyen.info&#x2F;nextcloud&#x2F;index.php&#x2F;login&quot;&gt;Link to Nextcloud&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vanguyen.info&#x2F;nextcloud&#x2F;index.php&#x2F;login&quot;&gt;Link to Nextcloud&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;to-do-list&quot;&gt;To-Do List&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
@@ -470,10 +459,10 @@ set up SMTP service&lt;&#x2F;li&gt;
         <id>https://vanguyen.info/blog/first-blog/</id>
         
         <content type="html" xml:base="https://vanguyen.info/blog/first-blog/">&lt;h1 id=&quot;origin&quot;&gt;Origin?&lt;a class=&quot;zola-anchor&quot; href=&quot;#origin&quot; aria-label=&quot;Anchor link for: origin&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
-&lt;p&gt;Have you ever wondered how the nickname &amp;quot;vanbuncha&amp;quot; came to be? Well, let me tell you the story.&lt;&#x2F;p&gt;
-&lt;p&gt;Picture this: it was 2012, and I was a young and enthusiastic fan of football. I was the only Asian on a team full of cheerful kids and adults, and as a result, they gave me the nickname &amp;quot;Fun Din Dung&amp;quot;. While it was popular amongst my peers, it wasn&#x27;t an original nickname until one day, my coach exclaimed &amp;quot;Van bún cùng chả&amp;quot; (in a Czech accent), referring to a Vietnamese dish that was becoming popular in the Czech Republic. And just like that, a new nickname was born.&lt;&#x2F;p&gt;
+&lt;p&gt;Have you ever wondered how the nickname &quot;vanbuncha&quot; came to be? Well, let me tell you the story.&lt;&#x2F;p&gt;
+&lt;p&gt;Picture this: it was 2012, and I was a young and enthusiastic fan of football. I was the only Asian on a team full of cheerful kids and adults, and as a result, they gave me the nickname &quot;Fun Din Dung&quot;. While it was popular amongst my peers, it wasn&#x27;t an original nickname until one day, my coach exclaimed &quot;Van bún cùng chả&quot; (in a Czech accent), referring to a Vietnamese dish that was becoming popular in the Czech Republic. And just like that, a new nickname was born.&lt;&#x2F;p&gt;
 &lt;p&gt;On September 6th, 2012, I immortalized this new nickname by creating the email vanbuncha.nguyen, which I still use to this day.&lt;&#x2F;p&gt;
-&lt;p&gt;Over the years, other nicknames have come and gone, such as &amp;quot;Wafik&amp;quot; (which means successful in Arabic) and &amp;quot;vanba&amp;quot; (derived from Ho Chi Minh&#x27;s alias during his stay on a French merchant steamer). But none of them have stuck like &amp;quot;vanbuncha&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;Over the years, other nicknames have come and gone, such as &quot;Wafik&quot; (which means successful in Arabic) and &quot;vanba&quot; (derived from Ho Chi Minh&#x27;s alias during his stay on a French merchant steamer). But none of them have stuck like &quot;vanbuncha&quot;.&lt;&#x2F;p&gt;
 &lt;p&gt;Despite its joke origin and possible derogatory connotation to my ethnic origin, I still use the nickname to this day. After all, it&#x27;s all in good fun!&lt;&#x2F;p&gt;
 </content>
         

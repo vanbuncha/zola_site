@@ -16,6 +16,7 @@ Eternal bachelor student <a href="https://www.instagram.com/fis_vse/?hl=en">@fis
 
 Master student in Data Science at <a href="https://www.instagram.com/universiteitleiden/?hl=en">@universiteitleiden</a>.
 
-My <a href=cv.pdf>Curriculum Vitae </a>.
+
+My <a href=about/cv.pdf>Curriculum Vitae </a> v2024.
 
 

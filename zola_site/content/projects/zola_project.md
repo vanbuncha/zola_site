@@ -74,7 +74,6 @@ Took 2 hours. It works. Its good.
 
 p.s the pgrep -f "cron" is replaced by the ID of cron process.
 
-** This script also updates <a href="https://vanguyen.info/spotify_api_project/">Spotify API project</a>
 
 ## Remote control and deployment
 
