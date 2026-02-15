@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>vanbuncha - plants</title>
     <subtitle>Personal site for documenting projects and blogging stuff.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://vanguyen.info/tags/plants/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://vanguyen.info"/>
+    <link rel="self" type="application/atom+xml" href="https://vanguyen.dev/tags/plants/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://vanguyen.dev"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2025-01-29T00:00:00+00:00</updated>
-    <id>https://vanguyen.info/tags/plants/atom.xml</id>
+    <id>https://vanguyen.dev/tags/plants/atom.xml</id>
     <entry xml:lang="en">
         <title>Moldy Ray</title>
         <published>2025-01-29T00:00:00+00:00</published>
@@ -20,10 +20,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/ray/"/>
-        <id>https://vanguyen.info/blog/ray/</id>
+        <link rel="alternate" type="text/html" href="https://vanguyen.dev/blog/ray/"/>
+        <id>https://vanguyen.dev/blog/ray/</id>
         
-        <content type="html" xml:base="https://vanguyen.info/blog/ray/">
+        <content type="html" xml:base="https://vanguyen.dev/blog/ray/">
 
 
 
@@ -49,7 +49,7 @@
     
 
 &lt;figure class=&quot;extended-figure&quot;&gt;
-    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;ray.5b172bf055e2e3ab.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.dev&amp;#x2F;processed_images&amp;#x2F;ray.b1f621420b101971.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
     
 &lt;&#x2F;figure&gt;
 &lt;figcaption&gt;Moldy Ray&lt;&#x2F;figcaption&gt;
@@ -74,10 +74,10 @@ dormant days now wake.&quot;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/phedimus/"/>
-        <id>https://vanguyen.info/blog/phedimus/</id>
+        <link rel="alternate" type="text/html" href="https://vanguyen.dev/blog/phedimus/"/>
+        <id>https://vanguyen.dev/blog/phedimus/</id>
         
-        <content type="html" xml:base="https://vanguyen.info/blog/phedimus/">
+        <content type="html" xml:base="https://vanguyen.dev/blog/phedimus/">
 
 
 
@@ -103,7 +103,7 @@ dormant days now wake.&quot;
     
 
 &lt;figure class=&quot;extended-figure&quot;&gt;
-    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;new_plant.991329386ec1afa1.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.dev&amp;#x2F;processed_images&amp;#x2F;new_plant.1393f75b7fdbdaa4.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
     
 &lt;&#x2F;figure&gt;
 &lt;figcaption&gt;Pfedimus&lt;&#x2F;figcaption&gt;

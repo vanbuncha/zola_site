@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://vanguyen.info"
+base_url = "https://vanguyen.dev"
 
 title = "vanbuncha"
 description = "Personal site for documenting projects and blogging stuff."

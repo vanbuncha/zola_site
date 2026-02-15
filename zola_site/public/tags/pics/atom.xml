@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>vanbuncha - pics</title>
     <subtitle>Personal site for documenting projects and blogging stuff.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://vanguyen.info/tags/pics/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://vanguyen.info"/>
+    <link rel="self" type="application/atom+xml" href="https://vanguyen.dev/tags/pics/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://vanguyen.dev"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-09-09T00:00:00+00:00</updated>
-    <id>https://vanguyen.info/tags/pics/atom.xml</id>
+    <updated>2026-02-15T00:00:00+00:00</updated>
+    <id>https://vanguyen.dev/tags/pics/atom.xml</id>
     <entry xml:lang="en">
-        <title>Gran Paradiso</title>
-        <published>2025-09-09T00:00:00+00:00</published>
-        <updated>2025-09-09T00:00:00+00:00</updated>
+        <title>Armenia Sidequest</title>
+        <published>2026-02-15T00:00:00+00:00</published>
+        <updated>2026-02-15T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -20,10 +20,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/pic3/"/>
-        <id>https://vanguyen.info/blog/pic3/</id>
+        <link rel="alternate" type="text/html" href="https://vanguyen.dev/blog/pic4/"/>
+        <id>https://vanguyen.dev/blog/pic4/</id>
         
-        <content type="html" xml:base="https://vanguyen.info/blog/pic3/">
+        <content type="html" xml:base="https://vanguyen.dev/blog/pic4/">
 
 
 
@@ -49,7 +49,58 @@
     
 
 &lt;figure class=&quot;extended-figure&quot;&gt;
-    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;grand_paradiso.5bf92418bb872f54.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.dev&amp;#x2F;processed_images&amp;#x2F;armenia.87879c8999b8ae34.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;figcaption&gt; &lt;a href=&quot;https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;Qkrv9w3qLdzrWG4L9&quot;&gt;39.683833, 45.229333&lt;&#x2F;a&gt;&lt;&#x2F;figcaption&gt;
+&lt;hr &#x2F;&gt;
+&lt;center&gt;Shy Mount Ararat&lt;&#x2F;center&gt; &lt;center&gt;Vanik, two Suriks sirrun &lt;&#x2F;center&gt; &lt;center&gt;kijk, a bright new year. &lt;&#x2F;center&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Gran Paradiso</title>
+        <published>2025-09-09T00:00:00+00:00</published>
+        <updated>2025-09-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vanguyen.dev/blog/pic3/"/>
+        <id>https://vanguyen.dev/blog/pic3/</id>
+        
+        <content type="html" xml:base="https://vanguyen.dev/blog/pic3/">
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+    
+
+    
+        
+        
+        
+        
+        
+    
+
+&lt;figure class=&quot;extended-figure&quot;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.dev&amp;#x2F;processed_images&amp;#x2F;grand_paradiso.a5103ae6b7bccbfc.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
     
 &lt;&#x2F;figure&gt;
 &lt;figcaption&gt; &lt;a href=&quot;https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;c7Z9d2SZHY4CNAWX8&quot;&gt;45.501932466737564, 7.313248341039009&lt;&#x2F;a&gt;&lt;&#x2F;figcaption&gt;
@@ -73,10 +124,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/pic2/"/>
-        <id>https://vanguyen.info/blog/pic2/</id>
+        <link rel="alternate" type="text/html" href="https://vanguyen.dev/blog/pic2/"/>
+        <id>https://vanguyen.dev/blog/pic2/</id>
         
-        <content type="html" xml:base="https://vanguyen.info/blog/pic2/">
+        <content type="html" xml:base="https://vanguyen.dev/blog/pic2/">
 
 
 
@@ -102,7 +153,7 @@
     
 
 &lt;figure class=&quot;extended-figure&quot;&gt;
-    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;fellas.c7387cb5b3106a78.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.dev&amp;#x2F;processed_images&amp;#x2F;fellas.6cbeed46e84d9070.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
     
 &lt;&#x2F;figure&gt;
 &lt;figcaption&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&#x2F;maps&#x2F;@52.3747565,4.8993734,3a,75y,185.29h,87t&#x2F;data=!3m7!1e1!3m5!1sVh79pqJa9e8hCbvFdl0e7A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DVh79pqJa9e8hCbvFdl0e7A%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D147.13043%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu&quot;&gt;52.3747565, 4.8993734&lt;&#x2F;a&gt;&lt;&#x2F;figcaption&gt;
@@ -126,10 +177,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://vanguyen.info/blog/pic1/"/>
-        <id>https://vanguyen.info/blog/pic1/</id>
+        <link rel="alternate" type="text/html" href="https://vanguyen.dev/blog/pic1/"/>
+        <id>https://vanguyen.dev/blog/pic1/</id>
         
-        <content type="html" xml:base="https://vanguyen.info/blog/pic1/">
+        <content type="html" xml:base="https://vanguyen.dev/blog/pic1/">
 
 
 
@@ -155,7 +206,7 @@
     
 
 &lt;figure class=&quot;extended-figure&quot;&gt;
-    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.info&amp;#x2F;processed_images&amp;#x2F;pics1.7c9bdbff0feca3c1.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
+    &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;vanguyen.dev&amp;#x2F;processed_images&amp;#x2F;pics1.2eadb098768afd98.jpg&quot; class=&quot;&quot; alt=&quot;Pic&quot;&#x2F;&gt;
     
 &lt;&#x2F;figure&gt;
 &lt;figcaption&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&#x2F;maps&#x2F;place&#x2F;52%C2%B023&#x27;00.2%22N+4%C2%B055&#x27;45.6%22E&#x2F;@52.3833979,4.9267608,17z&#x2F;data=!3m1!4b1!4m4!3m3!8m2!3d52.3833947!4d4.9293357?entry=ttu&quot;&gt;55.51529345661104, 9.947775998223287&lt;&#x2F;a&gt;&lt;&#x2F;figcaption&gt;
