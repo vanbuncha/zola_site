@@ -11,7 +11,7 @@ build_search_index = false
 
 [languages.en]
 title = "vanbuncha"
-description = "Personal site for documenting projects and blogging stuff."
+description = "Personal site for documenting life and stuff."
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 taxonomies = [
