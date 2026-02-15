@@ -1,37 +1,23 @@
 # The URL the site will be built for
 base_url = "https://vanguyen.dev"
-
-title = "vanbuncha"
-description = "Personal site for documenting projects and blogging stuff."
 default_language = "en"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-# When set to "true", a search index is built from the pages and section
-# content for `default_language`.
+# When set to "true", a search index is built from the pages and section content for `default_language`.
 build_search_index = false
 
-# When set to "true", a feed is automatically generated.
-generate_feeds= true
 
-# The taxonomies to be rendered for the site and their configuration of the default languages
+[languages.en]
+title = "vanbuncha"
+description = "Personal site for documenting projects and blogging stuff."
+generate_feeds = true
+feed_filenames = ["atom.xml"]
 taxonomies = [
     { name = "tags", feed = true, lang = "en" },
     { name = "categories", feed = true, lang = "en" },
 ]
-
-[markdown]
-# When set to "true", all code blocks are highlighted.
-highlight_code = true
-
-# The theme to use for code highlighting.
-# See Zola configuration docs for list of allowed values.
-highlight_theme = "material-light"
-
-[languages]
-
- 
 
 [languages.en.translations]
 projects = "Projects"
@@ -52,27 +38,21 @@ other = "Other"
 minute = "min"
 prev_page = "To newer posts"
 next_page = "To older posts"
-# Customize your post date format. See: https://tera.netlify.app/docs/#date
 date_format = "%B %e, %Y"
 
-
 [extra]
-# Development environment. Used by the page macros to load remote content only when in "prod" mode
 env = "ZOLA_ENV"
+color_mode = "auto"
 
-# List of Papaya navigational menu items. Used to construct the navigation bar. See the README for item schema.
 menu_items = [
     { name = "projects", url = "$LANG_BASE_URL/projects", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
     { name = "blog", url = "$LANG_BASE_URL/blog", show_recent = true, recent_items = 3, recent_trans_key = "recent_blog_posts", more_trans_key = "more_blog_posts" },
-    # tag is not a zola section, it's just a link.
     { name = "about", url = "$LANG_BASE_URL/about", show_recent = false },
 ]
 
 [extra.images]
-# Width defined in pixels
 max_width = 2500
 
-# Open Graph Protocol objects. See: https://ogp.me/
 [extra.ogp]
 locale = "en_US"
 first_name = "Van"
@@ -80,16 +60,12 @@ last_name = "Nguyen"
 gender = "male"
 username = "vanbuncha"
 
-# Footer social links; full options listed in macros/social.html
 [extra.social]
 email = "van.nguyenn@protonmail.com"
 github = "vanbuncha"
 linkedin = "vanbuncha"
 strava = "131186600"
-other = [
-    
-]
+other = []
 
-# CDN links
 [extra.cdn]
 font_awesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
