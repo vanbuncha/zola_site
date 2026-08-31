@@ -1,0 +1,16 @@
+<figure>
+    <video 
+        {% if class %}class="{{ class }}"{% endif %}
+        {% if autoplay %}autoplay{% endif %}
+        {% if loop %}loop{% endif %}
+        {% if muted %}muted{% endif %}
+        {% if controls %}controls{% endif %}
+        playsinline
+    >
+        <source src="{{ get_url(path=path) }}" type="video/{{ path | split(pat=".") | last }}">
+        Your browser does not support the video tag.
+    </video>
+    {% if caption %}
+    <figcaption>{{ caption }}</figcaption>
+    {% endif %}
+</figure>
